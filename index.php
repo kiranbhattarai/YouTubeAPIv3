@@ -39,7 +39,7 @@ function YouTubeDataAPIv3($videoTitle, $videoDescription, $videoPath, $videoCate
                 echo "Token was expired getting a new one .....";
                 $newToken = $client->getAccessToken();
                 $client->refreshToken($newToken['refresh_token']);
-                file_put_contents('tokens.json', json_encode($newToken));
+                file_put_contents(__DIR__ . '/assets/tokens.json', json_encode($newToken));
             }
 
             $youtube = new Google_Service_YouTube($client);
