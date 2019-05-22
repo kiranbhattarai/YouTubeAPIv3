@@ -64,6 +64,6 @@ Find the API that you want to use and select them and click **Authorize APIs** l
 
 11. **Call the function YouTubeDataAPIv3($videoTitle, $videoDescription, $videoPath, $videoCategory);**
 
-*Example : * YouTubeDataAPIv3("Test title", "Test Description", "./assets/videosfun.mp4", "27");
+    *Example:* **YouTubeDataAPIv3("Test title", "Test Description", "./assets/videosfun.mp4", "27");**
 
 # You can build more functionality on it but this will set you up the base to start
