@@ -30,17 +30,17 @@ The documentation provided by YouTube for PHP is not very clear and descriptive 
 
 5. Navigate to [oauthplayground](https://developers.google.com/oauthplayground/) click on this [Link](https://developers.google.com/oauthplayground/)
 
-1. Go to the OAuth2 Playground via this link, which should pre-populate some key values for you.
+   1. Go to the OAuth2 Playground via this link, which should pre-populate some key values for you.
 
-2. Click the gear icon ![gear](https://developers.google.com/adwords/api/images/playground-gear.png) icon in the upper right corner and check the box labeled **Use your own OAuth credentials** (if it isn't already checked).
+   2. Click the gear icon ![gear](https://developers.google.com/adwords/api/images/playground-gear.png) icon in the upper right corner and check the box labeled **Use your own OAuth credentials** (if it isn't already checked).
 
-3. Make sure that:
+   3. Make sure that:
 
-1. **OAuth flow** is set to **Server-side**.
-2. **Access type** is set to **Offline** (this ensures you get a refresh token and an access token, instead of just an access token).
-3. Enter the **OAuth2 client ID** and **OAuth2 client secret** you obtained **step3**. playground settings ![imgset](https://developers.google.com/adwords/api/images/playground-settings.png)
-4. In the section labeled Step 1 - Select & authorize APIs,or enter the following URL in the text box at the bottom, if it's not already there, then click Authorize APIs:
-   https://www.googleapis.com/auth/youtube.upload authorize apis ![img2](https://developers.google.com/adwords/api/images/playground-authorize-apis.png)
+      1. **OAuth flow** is set to **Server-side**.
+      2. **Access type** is set to **Offline** (this ensures you get a refresh token and an access token, instead of just an access token).
+      3. Enter the **OAuth2 client ID** and **OAuth2 client secret** you obtained **step3**. playground settings ![imgset](https://developers.google.com/adwords/api/images/playground-settings.png)
+   4. In the section labeled Step 1 - Select & authorize APIs,or enter the following URL in the text box at the bottom, if it's not already there, then click Authorize APIs:
+      https://www.googleapis.com/auth/youtube.upload authorize apis ![img2](https://developers.google.com/adwords/api/images/playground-authorize-apis.png)
 
 **OR**
 
