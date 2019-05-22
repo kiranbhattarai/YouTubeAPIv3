@@ -68,4 +68,4 @@ Find the API that you want to use and select them and click **Authorize APIs** l
 
 # You can build more functionality on it but this will set you up the base to start
 
-*You can contact me via **[KiranBhattarai.me](https://www.kiranbhattarai.me)** *
+*You can contact me via **[KiranBhattarai.me](https://www.kiranbhattarai.me)** 
