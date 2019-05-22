@@ -14,8 +14,8 @@ The documentation provided by YouTube for PHP is not very clear and descriptive 
 ## STEPS
 1. **Obtain OAuth 2.0 credentials from the Google API Console.**
 
-    Visit the Google API Console to obtain OAuth 2.0 credentials such as a client ID and client secret that are known to both Google and your application. The set of values varies based on what type of application you are building. For example, a JavaScript application does not require a secret, but a web server application does. Image of Step1
-![img1](step1)
+    Visit the Google API Console to obtain OAuth 2.0 credentials such as a client ID and client secret that are known to both Google and your application. The set of values varies based on what type of application you are building. For example, a JavaScript application does not require a secret, but a web server application does.
+![img1](assets/images/step1.png)
     Applications that use languages and frameworks like PHP, Java, Python, Ruby, and .NET must specify authorized redirect URIs. The redirect URIs are the endpoints to which the OAuth 2.0 server can send responses. For testing, you can specify URIs that refer to the local machine, such as [http://localhost:8080] Make sure to add Your authorized redirect URIs and the [oauthplayground](https://developers.google.com/oauthplayground/) URIs because we are going to use google [oauthplayground](https://developers.google.com/oauthplayground/) to manually start the process.
 
 2. **Clone the repository**
