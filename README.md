@@ -1,5 +1,5 @@
 # YouTubeAPIv3
-The documentation provided by you tube for PHP is not very clear and descriptive on how to use the you tube's API. So i made this for people who are having difficulty using it
+The documentation provided by YouTube for PHP is not very clear and descriptive on how to use the YouTube's API. So i made this for people who are having difficulty using it
 
 YouTubeAPIv3
 The documentation provided by YouTube for PHP is not very clear and descriptive on how to use the you tube's API. So i made this for people who are having difficulty using it
